@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
   "bin": {
-    "gh": "github.mjs",
-    "rs": "remotesettings.mjs"
+    "gh": "github.js",
+    "rs": "remotesettings.js"
   },
   "bugs": {
     "url": "https://github.com/pdehaan/cookie-banner-kinto/issues"
@@ -18,14 +18,14 @@
   "homepage": "https://github.com/pdehaan/cookie-banner-kinto#readme",
   "keywords": [],
   "license": "MPL-2.0",
-  "main": "lib.mjs",
+  "main": "lib.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pdehaan/cookie-banner-kinto.git"
   },
   "scripts": {
-    "start:gh": "./github.mjs",
-    "start:re": "./remotesettings.mjs",
+    "start:gh": "./github.js",
+    "start:re": "./remotesettings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
